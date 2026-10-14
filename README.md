@@ -35,9 +35,9 @@ Open **Games** in the sidebar. It lists 29 popular games as cards with search an
 Open **Benchmark** in the sidebar. Click **Run BEFORE test**, apply your tweaks (restart if asked), then click **Run AFTER test**. It never opens a game: it runs small built-in tests (CPU single/multi-thread, memory bandwidth, timer resolution and wake-up delay, disk write and small-file speed, ping to your router, idle CPU/RAM/process/service counts) in a background process and shows Before / After / Change with an overall figure. Results are saved, can be exported to a text report, and a few percent difference between runs is normal noise. Texts are available in English and Danish.
 
 ## How to run
-1. Extract the whole folder anywhere (do not run it from inside the zip).
-2. Double-click `Launch-SnickerTweaker.bat` and accept the Administrator (UAC) prompt.
-3. If nothing opens, check `%TEMP%\SnickerTweaker-error.log`. If Windows SmartScreen or your antivirus complains, that is expected for any unsigned tweak script. The source is plain text in `SnickerTweaker.ps1`, so you can read every line before running it.
+Download SnickerTweakerOptimizer.exe from the Releases page. It is a single portable file, there is nothing to install or extract.
+Double-click SnickerTweakerOptimizer.exe and accept the Administrator (UAC) prompt.
+If nothing opens, check %TEMP%\SnickerTweaker-error.log. If Windows SmartScreen or your antivirus complains, that is expected for an unsigned tweak tool: click More info > Run anyway. The full source is in this repository as plain text (SnickerTweaker.ps1), so you can read every line first.
 
 ## What is inside
 - **Dashboard**: automatic PC scan (CPU, GPU, RAM, storage, board/BIOS, OS, display, network), a hardware profile (Desktop or Laptop, Entry-level / Mainstream / High-performance), live CPU/RAM/GPU readout, an "optimized" score ring, scan findings (XMP off, Resizable BAR off, laptop/hybrid-GPU/X3D/Wi-Fi advice, etc.) and an Export Report button (saves a text report to your Desktop).
